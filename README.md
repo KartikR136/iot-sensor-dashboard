@@ -114,27 +114,27 @@ It was built to simulate a lightweight production IoT monitoring pipeline rather
 
 ESP32 Sensor Node
 
-&#x20;  |
+   |
 
-&#x20;  | MQTT Publish
+   | MQTT Publish
 
-&#x20;  v
+   v
 
 MQTT Broker
 
-&#x20;  |
+   |
 
-&#x20;  | MQTT Subscribe
+   | MQTT Subscribe
 
-&#x20;  v
+   v
 
 Node.js Backend
 
-&#x20;  |
+   |
 
-&#x20;  | Store telemetry
+   | Store telemetry
 
-&#x20;  v
+   v
 
 MongoDB
 
@@ -142,11 +142,11 @@ MongoDB
 
 Node.js Backend
 
-&#x20;  |
+   |
 
-&#x20;  | WebSocket push
+   | WebSocket push
 
-&#x20;  v
+   v
 
 React Dashboard
 
@@ -302,13 +302,13 @@ Body:
 
 {
 
-&#x20; "maxTemperature": 40,
+  "maxTemperature": 40,
 
-&#x20; "minTemperature": 15,
+  "minTemperature": 15,
 
-&#x20; "maxHumidity": 75,
+  "maxHumidity": 75,
 
-&#x20; "minHumidity": 30
+  "minHumidity": 30
 
 }
 
@@ -344,11 +344,11 @@ Payload:
 
 {
 
-&#x20; "deviceId": "esp32-room-01",
+  "deviceId": "esp32-room-01",
 
-&#x20; "temperature": 27.4,
+  "temperature": 27.4,
 
-&#x20; "humidity": 58.1
+  "humidity": 58.1
 
 }
 
@@ -434,11 +434,11 @@ npm run dev
 
 2\. Install required libraries:
 
-&#x20;  - PubSubClient
+   - PubSubClient
 
-&#x20;  - DHT sensor library
+   - DHT sensor library
 
-&#x20;  - Adafruit Unified Sensor
+   - Adafruit Unified Sensor
 
 3\. Update WiFi credentials
 
